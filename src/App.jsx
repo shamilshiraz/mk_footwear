@@ -13,9 +13,9 @@ import Footer from "./components/Footer";
 import Whatsapp from "./components/Whatsapp";
 import About from "./components/About";
 import Blogs from "./components/Blogs";
+import BlogPage from "./components/BlogPage"; // ✅ Add this import
 import Products from "./components/Products";
 import Contact from "./components/Contact";
-
 
 function App() {
   return (
@@ -40,10 +40,13 @@ function App() {
           />
 
           {/* Other Pages */}
-          <Route path="/about" element={<><About/></>} />
-          <Route path="/products"  element={<><Products/></>}/>
-          <Route path="/blogs"  element={<><Blogs/></>}/>
-          <Route path="/contact" element={<><Contact/></>} />
+          <Route path="/about" element={<About />} />
+          <Route path="/products" element={<Products />} />
+          <Route path="/blogs" element={<Blogs />} />
+          <Route path="/contact" element={<Contact />} />
+
+          {/* ✅ Blog Detail Page */}
+          <Route path="/blogs/:slug" element={<BlogPage />} />
         </Routes>
 
         <Footer />
