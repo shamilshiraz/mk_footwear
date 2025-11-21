@@ -7,13 +7,18 @@ export default function OurBrands() {
 
   const brands = [
     { name: "Lancer", img: "/lancer.png" },
-    { name: "VKC Pride", img: "/vkc.jpg" },
     { name: "Abros", img: "/abros.webp" },
-    { name: "Paragon", img: "/paragon.png" },
-    { name: "Kipsta", img: "/kipsta.webp" },
-    { name: "Red Tape", img: "/redtape.png" },
+    { name: "Paragon", img: "/action.png" },
+    { name: "Kipsta", img: "/dotcom.jpg" },
+    { name: "Red Tape", img: "/g&d.png" },
     { name: "Aqualite", img: "/aqualite.jpeg" },
-    { name: "Campus", img: "/campus.png" },
+    { name: "Campus", img: "/kats.png" },
+        { name: "Oofoam", img: "/oofoam.jpg" },
+            { name: "Red Tape", img: "/oxer.png" },
+    { name: "Aqualite", img: "/tucson.jpg" },
+    { name: "Campus", img: "/walkline.png" },
+        { name: "Oofoam", img: "/welcome.png" },
+                { name: "Oofoam", img: "/qtfoam.jpg" },
   ];
 
   const container = {
@@ -67,7 +72,7 @@ export default function OurBrands() {
       {/* Catalog Button */}
       <motion.a
         variants={item}
-        href="/catalog"
+        href="/products"
         className="text-xl bg-black text-white px-10 py-3 rounded-sm hover:bg-gray-800 transition"
       >
         CATALOG

@@ -17,6 +17,7 @@ import BlogPage from "./components/BlogPage"; // ✅ Add this import
 import Products from "./components/Products";
 import Contact from "./components/Contact";
 import Gallery from "./components/Gallery";
+import ScrollToTop from "./components/Scrolltotop";
 
 function App() {
   return (
