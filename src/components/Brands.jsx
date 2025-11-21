@@ -15,7 +15,7 @@ export default function OurBrands() {
     { name: "Campus", img: "/kats.png" },
         { name: "Oofoam", img: "/oofoam.jpg" },
             { name: "Red Tape", img: "/oxer.png" },
-    { name: "Aqualite", img: "/tucson.jpg" },
+    { name: "Aqualite", img: "/tucson.png" },
     { name: "Campus", img: "/walkline.png" },
         { name: "Oofoam", img: "/welcome.png" },
                 { name: "Oofoam", img: "/qtfoam.jpg" },
@@ -37,7 +37,7 @@ export default function OurBrands() {
   return (
     <motion.section
       ref={ref}
-      className="flex flex-col items-center justify-center h-screen w-full bg-white text-black px-8"
+      className="flex flex-col items-center justify-center h-auto w-full bg-white text-black px-8"
       variants={container}
       initial="hidden"
       animate={isInView ? "show" : "hidden"}
@@ -52,7 +52,7 @@ export default function OurBrands() {
       {/* Brands Grid */}
       <motion.div
         variants={container}
-        className="grid grid-cols-2 md:grid-cols-4 gap-10 md:gap-16 mb-16"
+        className="grid grid-cols-2 md:grid-cols-6 gap-10 md:gap-16 mb-16"
       >
         {brands.map((brand) => (
           <motion.div
