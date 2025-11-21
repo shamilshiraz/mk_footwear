@@ -16,6 +16,7 @@ import Blogs from "./components/Blogs";
 import BlogPage from "./components/BlogPage"; // ✅ Add this import
 import Products from "./components/Products";
 import Contact from "./components/Contact";
+import Gallery from "./components/Gallery";
 
 function App() {
   return (
@@ -40,7 +41,10 @@ function App() {
           />
 
           {/* Other Pages */}
-          <Route path="/about" element={<About />} />
+          <Route path="/about" element={<>
+          <About />
+          <Gallery/>
+          </>} />
           <Route path="/products" element={<Products />} />
           <Route path="/blogs" element={<Blogs />} />
           <Route path="/contact" element={<Contact />} />

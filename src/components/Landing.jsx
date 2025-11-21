@@ -43,6 +43,12 @@ export default function Landing() {
         animate="show"
         className="relative pt-30 z-10 flex flex-col items-center justify-center text-center px-4"
       >
+                <motion.h1
+          variants={textVariants}
+          className="text-white text-3xl md:text-5xl font-medium leading-tight mb-4"
+        >
+          MK FOOTWEAR
+        </motion.h1>
         <motion.h1
           variants={textVariants}
           className="text-white text-3xl md:text-5xl font-medium leading-tight mb-4"

@@ -42,7 +42,7 @@ export default function FootwearWholesalers() {
         </p>
 
         {/* Centered Button */}
-        <div className="w-full flex justify-center lg:justify-center">
+        <div className="w-full flex justify-center lg:justify-start">
           <Link
             to="/about"
             className="bg-black text-white text-sm px-6 py-3 mb-10 rounded-lg hover:bg-gray-800 transition"
@@ -53,18 +53,45 @@ export default function FootwearWholesalers() {
       </motion.div>
 
       {/* Image Section */}
-      <motion.div
-        initial="hidden"
-        animate={inView ? "visible" : "hidden"}
-        variants={fadeUp}
-        className="w-full lg:w-1/2 flex justify-center items-center"
-      >
-        <img
-          src="/landing.png" // Replace with your actual image path
-          alt="Footwear Collection"
-          className="rounded-2xl shadow-lg w-full max-w-md md:max-w-xl h-auto object-cover"
-        />
-      </motion.div>
+{/* Image Section */}
+<motion.div
+  initial="hidden"
+  animate={inView ? "visible" : "hidden"}
+  variants={fadeUp}
+  className="w-full lg:w-1/2 flex justify-center items-center"
+>
+  <div className="grid grid-cols-2 gap-4 w-full max-w-xl">
+    
+    {/* Large Bento Image */}
+    <div className="col-span-2 h-56 md:h-72">
+      <img
+        src="/lcas.jpg"
+        alt="Footwear 1"
+        className="w-full h-full object-cover rounded-2xl shadow-lg"
+      />
+    </div>
+
+    {/* Small Image 1 */}
+    <div className="h-40 md:h-52">
+      <img
+        src="/ladso.jpg"
+        alt="Footwear 2"
+        className="w-full h-full object-cover rounded-2xl shadow-lg"
+      />
+    </div>
+
+    {/* Small Image 2 */}
+    <div className="h-40 md:h-52">
+      <img
+        src="/kidso.jpg"
+        alt="Footwear 3"
+        className="w-full h-full object-cover rounded-2xl shadow-lg"
+      />
+    </div>
+
+  </div>
+</motion.div>
+
     </section>
   );
 }
