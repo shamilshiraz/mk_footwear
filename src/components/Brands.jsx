@@ -19,6 +19,11 @@ export default function OurBrands() {
     { name: "Campus", img: "/walkline.png" },
         { name: "Oofoam", img: "/welcome.png" },
                 { name: "Oofoam", img: "/qtfoam.jpg" },
+                                { name: "Nushi", img: "/nushi.png" },
+            { name: "Pattern", img: "/pattern.png" },
+                        { name: "Pattern", img: "/evocks.png" },
+                        { name: "Pattern", img: "/dhl.png" },
+
   ];
 
   const container = {
