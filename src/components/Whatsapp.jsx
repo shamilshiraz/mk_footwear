@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 import { MessageCircle } from "lucide-react"; // WhatsApp-like icon
 
 export default function Whatsapp() {
-  const whatsappNumber = "919876543210"; // Replace with your actual number
+  const whatsappNumber = "918921082376"; // Replace with your actual number
   const message = encodeURIComponent("Hi! I have some queries about your products.");
 
   return (
