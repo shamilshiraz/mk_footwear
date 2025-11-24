@@ -23,6 +23,7 @@ export default function OurBrands() {
             { name: "Pattern", img: "/pattern.png" },
                         { name: "Pattern", img: "/evocks.png" },
                         { name: "Pattern", img: "/dhl.png" },
+                        { name: "Pattern", img: "/alzado.png" },
 
   ];
 

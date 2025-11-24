@@ -16,7 +16,7 @@ export function BlogTrend2025() {
       >
         {/* Heading */}
         <h1 className="text-3xl md:text-4xl font-medium font-sans tracking-tight leading-tight mb-4">
-          TOP FOOTWEAR TRENDS IN CALICUT
+          TOP FOOTWEAR TRENDS IN KOZHIKODE
         </h1>
 
         {/* Image */}

@@ -64,7 +64,7 @@ export default function About() {
           className="grid grid-cols-1 md:grid-cols-2 gap-14 md:gap-24 items-center"
         >
           <motion.div variants={fadeUp} className="space-y-6">
-            <h2 className="text-2xl md:text-4xl font-semibold tracking-tight">
+            <h2 className="text-xl md:text-2xl font-semibold tracking-tight">
               About M.K Footwear Trading Co.
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">

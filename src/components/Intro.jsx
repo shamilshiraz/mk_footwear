@@ -28,7 +28,7 @@ export default function FootwearWholesalers() {
         className="w-full lg:w-1/2 lg:pr-12 mt-10 lg:mt-0 text-left flex flex-col"
       >
         <h2 className="text-2xl md:text-4xl font-semibold mb-6 tracking-tight">
-          BEST FOOTWEAR WHOLESALERS IN CALICUT
+          BEST FOOTWEAR WHOLESALERS IN KOZHIKODE
         </h2>
 
         <p className="text-base md:text-xl leading-relaxed text-gray-700 mb-8 max-w-xl">
