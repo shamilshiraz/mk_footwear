@@ -34,7 +34,8 @@ export default function Footer() {
             <h2 className="text-2xl font-medium tracking-tight">MK FOOTWEAR</h2>
           </div>
           <p className="text-gray-300 text-sm leading-relaxed max-w-xs">
-            Mk footwear Trading co, Calicut beach<br />
+            Mk footwear Trading co,
+            Kozhikode beach<br />
             Near 6th Avenue, 673001<br />
             Kozhikode, Kerala <br />
             Phone:+91 8921082376

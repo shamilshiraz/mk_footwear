@@ -43,7 +43,7 @@ export default function About() {
             ABOUT MK FOOTWEAR
           </h1>
           <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl">
-            MK Footwear is a trusted name in Calicut’s footwear industry,
+            MK Footwear is a trusted name in Kozhikode's footwear industry,
             connecting leading brands with local retailers and businesses.
             Our mission is to deliver premium-quality, trend-forward, and
             durable footwear across Kerala through a dependable and
