@@ -9,7 +9,7 @@ const categories = [
   { title: "Ladies Casuals", image: "/wcasuals.png" },
   { title: "Ladies Clogs", image: "/wclogs.png" },
   { title: "Ladies Slippers", image: "/wslippers.png" },
-  { title: "Kids Casuals", image: "/kidscas.png" },
+  { title: "Kids Casuals", image: "/kidsshoe.png" },
   { title: "Kids Clogs", image: "/kidsclogs.png" },
   { title: "Kids Slippers", image: "/kidsslippers.png" },
 ];
