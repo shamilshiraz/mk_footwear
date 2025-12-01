@@ -39,7 +39,7 @@ export default function About() {
           variants={fadeUp}
           className="flex flex-col items-center text-center space-y-8"
         >
-          <h1 className="text-4xl md:text-6xl font-semibold tracking-tight leading-tight">
+          <h1 className="text-xl pt-10 md:text-6xl font-semibold tracking-tight leading-tight">
             ABOUT MK FOOTWEAR
           </h1>
           <p className="text-lg md:text-xl text-gray-600 leading-relaxed max-w-3xl">
@@ -65,10 +65,10 @@ export default function About() {
         >
           <motion.div variants={fadeUp} className="space-y-6">
             <h2 className="text-xl md:text-2xl font-semibold tracking-tight">
-              About M.K Footwear Trading Co.
+              About MK Footwear Trading Co.
             </h2>
             <p className="text-lg text-gray-600 leading-relaxed">
-              Established over 15 years ago, M.K Footwear Trading Co. has grown
+              Established over 15 years ago, MK Footwear Trading Co. has grown
               into one of Kerala’s most reliable footwear distribution networks,
               proudly powering over 800 retail partners across the state. From
               urban showrooms to local outlets, our consistent service and
