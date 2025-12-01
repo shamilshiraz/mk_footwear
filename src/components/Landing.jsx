@@ -2,6 +2,9 @@ import React from 'react';
 import { motion } from 'framer-motion';
 
 export default function Landing() {
+    const whatsappNumber = "918921082376"; // Replace with your actual number
+  const message = encodeURIComponent("Hi! I have some queries about your products.");
+  
   // Parent container animation
   const containerVariants = {
     hidden: { opacity: 0 },
@@ -64,7 +67,7 @@ Trusted by retailers across Kerala, we specialize in premium footwear wholesale 
 
         <motion.a
           variants={textVariants}
-          href="#"
+          href={`https://wa.me/${whatsappNumber}?text=${message}`}
           className="inline-block bg-white text-black px-8 py-3 font-semibold text-lg transition-colors duration-200 hover:bg-gray-200"
           whileHover={{ scale: 1 }}
           whileTap={{ scale: 1 }}
