@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export function BlogTrend2025() {
   const ref = useRef(null);
@@ -43,9 +44,9 @@ export function BlogTrend2025() {
 
         {/* Button (centered) */}
         <div className="w-full flex justify-center">
-          <button className="mt-8 px-7 py-3 bg-black text-white text-lg tracking-wider shadow-md hover:bg-gray-900 transition-colors">
+          <Link to={'/blogs'} className="mt-8 px-7 py-3 bg-black text-white text-lg tracking-wider shadow-md hover:bg-gray-900 transition-colors">
             BLOGS
-          </button>
+          </Link>
         </div>
       </motion.div>
     </section>

@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function OurBrands() {
   const ref = useRef(null);
@@ -76,13 +77,13 @@ export default function OurBrands() {
       </motion.div>
 
       {/* Catalog Button */}
-      <motion.a
+      <Link
         variants={item}
-        href="/products"
+        to={'/products'}
         className="text-xl bg-black text-white px-10 py-3 rounded-sm hover:bg-gray-800 transition"
       >
         CATALOG
-      </motion.a>
+      </Link>
     </motion.section>
   );
 }

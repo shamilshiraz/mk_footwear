@@ -1,5 +1,6 @@
 import React, { useRef } from "react";
 import { motion, useInView } from "framer-motion";
+import { Link } from "react-router-dom";
 
 export default function About() {
   const ref = useRef(null);
@@ -194,14 +195,14 @@ export default function About() {
             collections, receive quick quotations, and benefit from a
             distribution network built on trust, speed, and transparency.
           </p>
-          <motion.a
-            href="/contact"
+          <Link
+            to={'/contact'}
             whileHover={{ scale: 1.05 }}
             whileTap={{ scale: 0.95 }}
             className="bg-black text-white px-12 py-4 rounded-full text-lg font-medium shadow-lg hover:bg-gray-900 transition"
           >
             CONTACT US
-          </motion.a>
+          </Link>
         </motion.div>
       </motion.div>
     </section>
