@@ -133,7 +133,7 @@ export default function About() {
             className="flex justify-center"
           >
             <img
-              src="/shop2.png"
+              src="/shop3.png"
               alt="Vision - Footwear Distribution"
               className="rounded-[2rem] shadow-lg w-full max-w-md object-cover"
             />
