@@ -25,6 +25,10 @@ export default function OurBrands() {
                         { name: "Pattern", img: "/evocks.png" },
                         { name: "Pattern", img: "/dhl.png" },
                         { name: "Pattern", img: "/alzado.png" },
+     { name: "Pattern", img: "/one8.png" },
+     { name: "Pattern", img: "/walkaroo.png" },
+     { name: "Pattern", img: "/sportz.png" },
+
 
   ];
 
@@ -59,7 +63,7 @@ export default function OurBrands() {
       {/* Brands Grid */}
       <motion.div
         variants={container}
-        className="grid grid-cols-2 md:grid-cols-6 gap-10 md:gap-16 mb-16"
+        className="grid grid-cols-2 md:grid-cols-7 gap-10 md:gap-16 mb-16"
       >
         {brands.map((brand) => (
           <motion.div
