@@ -90,7 +90,7 @@ export default function Footer() {
             </li>
             <li>
               <a
-                href="mailto:info@mkfootwear.com"
+                href="mailto:Mkfootweartrading@gmail.com"
                 className="hover:text-gray-400 transition"
               >
                 MAIL
